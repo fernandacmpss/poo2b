@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: a49aa34dbf342a143b968138befec317
+guid: e42d2f99130ccf746b63b3ccd37f41e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5641260824336009928
-    second: 20240707dragon9SlicesE_0
+      213: -2455923911838539156
+    second: 20240707dragon9SlicesATexture_0
+  - first:
+      213: 1815414549005031956
+    second: 20240707dragon9SlicesATexture_1
+  - first:
+      213: -1082587640192642021
+    second: 20240707dragon9SlicesATexture_2
+  - first:
+      213: 8173743973665096062
+    second: 20240707dragon9SlicesATexture_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,13 +55,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 13, y: 17, z: 14, w: 16}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -100,23 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 20240707dragon9SlicesE_0
+      name: 20240707dragon9SlicesATexture_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 48
-        height: 48
+        y: 3
+        width: 144
+        height: 138
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ca00efb4d8c94e40800000000000000
-      internalID: 5641260824336009928
+      spriteID: c62e977d63ecaedd0800000000000000
+      internalID: -2455923911838539156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20240707dragon9SlicesATexture_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 54
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a5581f9e5a13910800000000000000
+      internalID: 1815414549005031956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20240707dragon9SlicesATexture_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14d61ce640e9f0f0800000000000000
+      internalID: -1082587640192642021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20240707dragon9SlicesATexture_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 25
+        width: 42
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e714c4376d8fe6170800000000000000
+      internalID: 8173743973665096062
       vertices: []
       indices: 
       edges: []
@@ -125,8 +200,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -134,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      20240707dragon9SlicesE_0: 5641260824336009928
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
