@@ -26,8 +26,8 @@ public class BarraDeVida : MonoBehaviour
             sliderVidasRestantes.minValue = 0;
             sliderVidasRestantes.maxValue = jogador.getVidas();
 
-            sliderEnergiaRestate.minValue = 0;
-            sliderEnergiaRestate.maxValue = jogador.getEnergia();
+         //   sliderEnergiaRestate.minValue = 0;
+         //   sliderEnergiaRestate.maxValue = jogador.getEnergia();
         }
     }
 
@@ -36,7 +36,7 @@ public class BarraDeVida : MonoBehaviour
         vidasRestantes = jogador.getVidas();
         sliderVidasRestantes.value = vidasRestantes; 
         
-        energiaRestate = jogador.getEnergia();
-        sliderEnergiaRestate.value = energiaRestate;
+       // energiaRestate = jogador.getEnergia();
+       // sliderEnergiaRestate.value = energiaRestate;
     }
 }
